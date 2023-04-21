@@ -62,13 +62,13 @@ body{
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 550px;
+    width: 650px;
 }
 
 /* projects styles */
 .projects { 
     margin-bottom: 50px;    
-    width: 550px;
+    width: 650px;
 }
 
 .title {
@@ -93,6 +93,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     color: #000000;
+    padding-bottom: 15px;
 }
 
 .project, 
@@ -113,13 +114,14 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
+    text-decoration: none;
     color: #000000;
 }
 
 
 /* work styles */
 .work {
-    width: 550px;
+    width: 650px;
 }
 
 .work-position {
@@ -166,12 +168,12 @@ body{
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 509px;
+    width: 600px;
 }
 
 /* education styles */
 .education {
-    width: 550px;
+    width: 650px;
 }
 
 .education-position {
@@ -196,7 +198,7 @@ body{
     margin-bottom: 50px;
 }
 
-.sidebar-titel{
+.contact-titel {
     color: #000000;
     font-style: normal;
     font-weight: 700;
@@ -216,7 +218,26 @@ body{
     font-size: 14px;
     line-height: 24px;
     color: #000000;
-    margin-right: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-item {
+    list-style: none;
+    height: 50px;
+}
+
+.contact-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #FB6D3A;
+    border: none;
+}
+
+.contact-icon {
+    margin-right: 15px;
+    fill: #000000;
 }
 
 .contact-link {
@@ -224,9 +245,10 @@ body{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #7A8089;
+    color: #FB6D3A;
 }
-.contact, 
+
+.contact-titel,
 .tech-skills,
 .soft-skills,
 .languages-skills {
