@@ -3,18 +3,18 @@
 }
 
 body{
-    position: relative;
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F781;
     width: 1280px;
-    height: 100%;
+    margin: 0;
 }
 
 /* main styles */
 .main {
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-self: start;
+    justify-content: start;
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 50px;
@@ -22,14 +22,14 @@ body{
 
 .main-content {
     width: 700px;
+    height: 100vh;;
     height: auto;
     position: absolute;
     top: 0;
     left: 40%;
     margin-left: 40px;
     background-color: #F3F781;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 30px 50px;
 }
 
 /* about styles */
@@ -187,12 +187,14 @@ body{
 .main-sidebar {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 370px;
+    left: 10%;
+    width: 400px;
+    height: 100vh;
 }
 .sidebar {
     background-color: #A9F5E1;
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
 .sidebar-titel{
@@ -205,7 +207,7 @@ body{
 }
 
 .photo{
-    width: 370px;
+    width: 400px;
     margin-bottom: 50px;
 }
 
@@ -259,5 +261,5 @@ body{
 }
 
 .languages-skills {
-    margin-bottom: 45px;
+    padding-bottom: 50px;
 }
