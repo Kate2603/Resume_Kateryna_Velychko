@@ -192,9 +192,7 @@ body{
     height: 100vh;
 }
 .sidebar {
-
-    background-color: #A9F5E1;
-    padding-top: 40px;
+    background-color: #A9F5E1;;
     margin-bottom: 50px;
 }
 
@@ -209,7 +207,7 @@ body{
 
 .photo{
     width: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .contact-type {
@@ -236,11 +234,11 @@ body{
 }
 
 .contact {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .tech-skills {
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
 
 .skills-list {
