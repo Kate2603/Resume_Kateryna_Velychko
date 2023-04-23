@@ -34,7 +34,7 @@ body{
 
 /* about styles */
 .about {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -53,7 +53,7 @@ body{
     font-size: 45px;
     line-height: 1.22;
     color: #000000;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .about-description{
@@ -67,7 +67,7 @@ body{
 
 /* projects styles */
 .projects { 
-    margin-bottom: 50px;    
+    margin-bottom: 20px;    
     width: 650px;
 }
 
@@ -189,7 +189,7 @@ body{
 .main-sidebar {
     position: absolute;
     top: 0;
-    left: 10%;
+    left: 5%;
     width: 400px;
     height: 100vh;
 }
