@@ -17,25 +17,23 @@ body{
     justify-content: start;
     align-content: flex-start;
     flex-wrap: wrap;
-    gap: 50px;
+    /* gap: 50px; */
 }
 
 .main-content {
-    width: 700px;
+    width: 600px;
     height: 100vh;;
     height: auto;
     position: absolute;
     top: 0;
-    left: 40%;
-    margin-left: 40px;
+    left: 35%;
     background-color: #F3F781;
-    padding: 30px 50px;
+    padding: 20px 50px;
 }
 
 /* about styles */
 .about {
     margin-bottom: 10px;
-
 }
 
 .about-position {
@@ -44,16 +42,16 @@ body{
     font-size: 14px;
     line-height: 1.2;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about-name {
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 1.22;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about-description{
@@ -62,13 +60,13 @@ body{
     font-size: 14px;
     line-height: 1.7;
     color: #595959;
-    width: 650px;
+    width: 550px;
 }
 
 /* projects styles */
 .projects { 
-    margin-bottom: 20px;    
-    width: 650px;
+    margin-bottom: 10px;    
+    width: 550px;
 }
 
 .title {
@@ -83,7 +81,6 @@ body{
 .projects-list {
     padding: 0;
     margin-left: 15px;
-
 }
 
 .project-item {
@@ -120,7 +117,7 @@ body{
 
 /* work styles */
 .work {
-    width: 650px;
+    width: 550px;
 }
 
 .work-position {
@@ -168,12 +165,12 @@ body{
     font-size: 14px;
     line-height: 1.7;
     color: #595959;
-    width: 600px;
+    width: 550px;
 }
 
 /* education styles */
 .education {
-    width: 650px;
+    width: 550px;
 }
 
 .education-position {
@@ -189,7 +186,7 @@ body{
 .main-sidebar {
     position: absolute;
     top: 0;
-    left: 5%;
+    left: 0;
     width: 400px;
     height: 100vh;
 }
@@ -215,7 +212,7 @@ body{
 .contact-type {
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
     color: #000000;
     padding: 0;
@@ -224,16 +221,16 @@ body{
 
 .contact-item {
     list-style: none;
-    height: 50px;
+    margin-bottom: 10px;
 }
 
-.contact-icon {
+/* .contact-icon {
     width: 24px;
     height: 24px;
     border: none;
     margin-right: 15px;
     fill: #FB6D3A;
-}
+} */
 
 .contact-link {
     font-style: normal;
@@ -241,6 +238,7 @@ body{
     font-size: 16px;
     line-height: 1.7;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .contact-titel,
@@ -277,5 +275,5 @@ body{
 }
 
 .languages-skills {
-    padding-bottom: 270px;
+    padding-bottom: 300px;
 }
