@@ -5,7 +5,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F781;
-    width: 1280px;
+    width: 1080px;
     margin: 0;
 }
 
@@ -232,7 +232,7 @@ body{
     height: 24px;
     border: none;
     margin-right: 15px;
-    fill: #000000;
+    fill: #FB6D3A;
 }
 
 .contact-link {
@@ -240,7 +240,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.7;
-    color: #FB6D3A;
+    color: #000000;
 }
 
 .contact-titel,
@@ -277,5 +277,5 @@ body{
 }
 
 .languages-skills {
-    padding-bottom: 350px;
+    padding-bottom: 270px;
 }
