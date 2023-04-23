@@ -42,7 +42,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.2;
     color: #000000;
     margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    line-height: 55px;
+    line-height: 1.22;
     color: #000000;
     margin-bottom: 25px;
 }
@@ -60,7 +60,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #595959;
     width: 650px;
 }
@@ -75,10 +75,9 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 27px;
+    line-height: 1.125;
     color: #000000;
     margin-bottom: 10px;
-    font-size: 45px;
 }
 
 .projects-list {
@@ -91,7 +90,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #000000;
     padding-bottom: 15px;
 }
@@ -101,7 +100,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #595959;
 }
 
@@ -113,7 +112,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     text-decoration: none;
     color: #000000;
 }
@@ -128,7 +127,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     color: #000000;
     margin-bottom: 10px;
 }
@@ -137,14 +136,15 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     color: #FB6D3A;
 }
+
 .period {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     color: #A8A8A8;
     margin-bottom: 10px;
 }
@@ -153,7 +153,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.25;
     color: #000000;
 }
 
@@ -166,7 +166,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #595959;
     width: 600px;
 }
@@ -180,7 +180,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.2;
     color: #000000;
     margin-right: 50px;
 }
@@ -203,7 +203,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 27px;
+    line-height: 1.23;
     margin-bottom: 10px;
 }
 
@@ -216,7 +216,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #000000;
     padding: 0;
     list-style: none;
@@ -227,25 +227,20 @@ body{
     height: 50px;
 }
 
-.contact-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: #FB6D3A;
-    border: none;
-}
-
 .contact-icon {
+    width: 24px;
+    height: 24px;
+    border: none;
     margin-right: 15px;
     fill: #FB6D3A;
 }
 
 .contact-link {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FB6D3A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #595959;
 }
 
 .contact-titel,
@@ -273,7 +268,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     color: #000000;
 }
 
@@ -282,5 +277,5 @@ body{
 }
 
 .languages-skills {
-    padding-bottom: 50px;
+    padding-bottom: 220px;
 }
