@@ -7,6 +7,8 @@ body{
     background-color: #F3F781;
     width: 1080px;
     margin: 0;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 /* main styles */
@@ -29,6 +31,7 @@ body{
     left: 25%;
     background-color: #F3F781;
     padding: 20px 50px;
+
 }
 
 /* about styles */
@@ -60,13 +63,13 @@ body{
     font-size: 14px;
     line-height: 1.7;
     color: #595959;
-    width: 550px;
+    width: 500px;
 }
 
 /* projects styles */
 .projects { 
     margin-bottom: 10px;    
-    width: 550px;
+    width: 500px;
 }
 
 .title {
@@ -117,7 +120,7 @@ body{
 
 /* work styles */
 .work {
-    width: 550px;
+    width: 500px;
 }
 
 .work-position {
@@ -165,12 +168,12 @@ body{
     font-size: 14px;
     line-height: 1.7;
     color: #595959;
-    width: 550px;
+    width: 500px;
 }
 
 /* education styles */
 .education {
-    width: 550px;
+    width: 500px;
 }
 
 .education-position {
@@ -275,5 +278,5 @@ body{
 }
 
 .languages-skills {
-    padding-bottom: 1050px;
+    padding-bottom: 1000px;
 }
