@@ -5,10 +5,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #F3F781;
-    width: 1080px;
+    width: 1280px;
     margin: 0;
-    margin-left: 30px;
-    margin-top: 30px;
 }
 
 /* main styles */
@@ -23,15 +21,13 @@ body{
 }
 
 .main-content {
-    width: 600px;
-    height: 100vh;;
-    height: auto;
+    width: 800px;
+    height: 100vh;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 35%;
     background-color: #F3F781;
     padding: 20px 50px;
-
 }
 
 /* about styles */
@@ -41,8 +37,8 @@ body{
 
 .about-position {
     font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 16px;
     line-height: 1.2;
     color: #000000;
     margin-bottom: 10px;
@@ -50,8 +46,8 @@ body{
 
 .about-name {
     font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 45px;
     line-height: 1.22;
     color: #000000;
     margin-bottom: 10px;
@@ -59,23 +55,23 @@ body{
 
 .about-description{
     font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 1.7;
     color: #595959;
-    width: 500px;
+    width: 800px;
 }
 
 /* projects styles */
 .projects { 
     margin-bottom: 10px;    
-    width: 500px;
+    width: 800px;
 }
 
 .title {
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 24px;
     line-height: 1.125;
     color: #000000;
     margin-bottom: 10px;
@@ -88,8 +84,8 @@ body{
 
 .project-item {
     font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.7;
     color: #000000;
     padding-bottom: 30px;
@@ -98,8 +94,8 @@ body{
 .project, 
 .project-link {
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 16px;
     line-height: 1.7;
     color: #595959;
 }
@@ -110,8 +106,8 @@ body{
 
 .project-bracket {
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 16px;
     line-height: 1.7;
     text-decoration: none;
     color: #000000;
@@ -120,12 +116,12 @@ body{
 
 /* work styles */
 .work {
-    width: 500px;
+    width: 800px;
 }
 
 .work-position {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
     color: #000000;
@@ -134,15 +130,15 @@ body{
 
 .organization {
     font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 18px;
     line-height: 1.25;
     color: #FB6D3A;
 }
 
 .period {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     line-height: 1.25;
     color: #A8A8A8;
@@ -151,7 +147,7 @@ body{
 
 .line {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 12px;
     line-height: 1.25;
     color: #000000;
@@ -164,16 +160,20 @@ body{
 
 .work-list-item {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     color: #595959;
-    width: 500px;
+    width: 800px;
 }
 
 /* education styles */
 .education {
-    width: 500px;
+    width: 800px;
+}
+
+.organization {
+    padding-right: 50px;
 }
 
 .education-position {
@@ -182,6 +182,7 @@ body{
     font-size: 14px;
     line-height: 1.2;
     color: #000000;
+    padding-right: 50px;
     margin-right: 50px;
 }
 
@@ -189,8 +190,8 @@ body{
 .main-sidebar {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 300px;
+    left: 5%;
+    width: 400px;
     height: 100vh;
 }
 .sidebar {
@@ -208,7 +209,8 @@ body{
 }
 
 .photo{
-    width: 300px;
+    width: 400px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -278,5 +280,5 @@ body{
 }
 
 .languages-skills {
-    padding-bottom: 1000px;
+    padding-bottom: 20px;
 }
