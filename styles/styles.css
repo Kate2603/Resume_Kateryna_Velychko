@@ -325,6 +325,15 @@ a:link {
     .languages-skills {
         padding-bottom: 500px;
     }
+    .footer {
+        padding: 100px 0;
+        background-color: #A9F5E1;
+    }
+    
+    .footer__container {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
 /* ---------------------------------------------- */
