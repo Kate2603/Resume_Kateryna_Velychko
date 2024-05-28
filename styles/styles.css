@@ -326,8 +326,7 @@ a:link {
         padding-bottom: 500px;
     }
     .footer {
-        padding: 100px 0;
-        background-color: #A9F5E1;
+        padding: 100px 30px;
     }
     
     .footer__container {
